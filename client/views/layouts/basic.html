@@ -1,0 +1,15 @@
+<template name="basicLayout">
+  <div id="sticky-page">
+    <div id="main">
+        <header>
+          {{> header}}
+        </header>
+          {{> yield}}
+          {{! Also a sidebar! }}
+        {{> sAlert}}
+        <footer>
+          {{> footer}}
+        </footer>
+    </div>
+  </div>
+</template>

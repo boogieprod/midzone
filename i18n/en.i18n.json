@@ -1,0 +1,60 @@
+{
+  /* Header */
+
+  "sub_header_text": "POS software integration since 2003",
+
+  /* Home */
+
+  "midzone": "Midzone Enterprises",
+  "our_services": "Our services",
+  "our_clients": "Our clients",
+  "proposal": "Project proposal",
+  "about_us": "About us",
+  "services_text": "We offer turnkey solutions to minimize the impact on
+  your personnel by offering technical and functional training",
+  "dont_wheel": "Don't reinvent the wheel",
+  "our_goal": "Why we're in business",
+  "goal_dialog": "We operate as an extension of retailers IT department that
+  often are too occupied in daily activities to learn or work on a new POS project.",
+  "client_sub": "Here are some clients that benefits from our services",
+  "clients_dialog": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Ut rutrum risus bibendum risus laoreet euismod. Donec feugiat blandit tincidunt.
+  Pellentesque gravida est ut ex scelerisque, a blandit massa efficitur.
+  Sed consectetur rutrum tortor sit amet finibus. Suspendisse cursus dolor vel
+  venenatis porttitor. Vivamus auctor risus vel libero varius scelerisque in eget
+  odio. Aenean in molestie nisl. Morbi lobortis ligula sed velit ultrices, et
+  commodo magna viverra. Pellentesque arcu justo, fermentum quis",
+  "clients_hints": "You wish to see your business on this list? ",
+  "clients_pro_link": "Press here to send us a proposal.",
+  "proposal_sub_header": "Fill in the following form and our project specialist will contact you shortly",
+  "about_sub_header": "Discover our team of specialists",
+
+  /* Home helpers */
+
+  "pos_integ": "POS software integration",
+  "tech_training": "Technical training",
+  "func_training": "Functional training",
+  "proj_manag": "Project management",
+  "bank_certif": "Bank certification",
+  "net_architecture": "Network architecture",
+  "chateau_description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur",
+  "stokes_description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur",
+  "ex_description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur",
+  "large_buttons": "Large Buttons",
+  "one_column": "One column",
+  "vertical_menu": "Vertical Menu / Navigation",
+
+  /* Proposal form */
+
+  "f_name": "First Name",
+  "l_name": "Last Name",
+  "c_name": "Company's name",
+  "e-mail": "Email",
+  "proj_desc": "Project description (Please try to be as accurate as possible)",
+  "submit": "Submit",
+
+  /* Footer */
+
+  "copyright": "Copyright"
+
+}

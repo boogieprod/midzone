@@ -1,0 +1,58 @@
+{
+  /* Header */
+
+  "sub_header_text": "Int\u00E9gration de logiciel PDV depuis 2003",
+
+  /* Home */
+
+  "midzone": "Entreprises Midzone",
+  "our_services": "Nos services",
+  "our_clients": "Nos clients",
+  "proposal": "Soumission de projet",
+  "about_us": "\u00C0 propos de nous",
+  "services_text": "Nous offrons des solutions cl\u00E9 en main pour
+  minimiser l'impact sur votre personnel en offrant des formations techniques et
+  fonctionnelles",
+  "dont_wheel": "Ne r\u00E9inventez pas la roue",
+  "our_goal": "Notre raison d'\u00EAtre",
+  "goal_dialog": "Nous op\u00E9rons sous forme d'extension du d\u00E9partement
+  informatique des d\u00E9taillants qui sont souvent trop occup\u00E9s dans leurs
+  activit\u00E9s quotidienne pour apprendre ou travailler sur un nouveau projet de PDV",
+  "client_sub": "Voici quelques clients qui ont su b\u00E9n\u00E9ficier de nos services",
+  "clients_dialog": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  Ut rutrum risus bibendum risus laoreet euismod. Donec feugiat blandit tincidunt.
+  Pellentesque gravida est ut ex scelerisque, a blandit massa efficitur.
+  Sed consectetur rutrum tortor sit amet finibus. Suspendisse cursus dolor vel
+  venenatis porttitor. Vivamus auctor risus vel libero varius scelerisque in eget
+  odio. Aenean in molestie nisl. Morbi lobortis ligula sed velit ultrices, et
+  commodo magna viverra. Pellentesque arcu justo, fermentum quis",
+  "clients_hints": "Vous souhaitez voir votre entreprise joindre cette liste? ",
+  "clients_pro_link": "Appuyez ici pour nous envoyer une soumission.",
+  "proposal_sub_header": "Remplissez le formulaire suivant et notre sp\u00E9cialiste va communiquer avec vous rapidement",
+  "about_sub_header": "D\u00E9couvrez notre \u00E9quipe de sp\u00E9cialistes",
+
+  /* Home helpers */
+
+  "pos_integ": "Int\u00E9gration logiciel PDV",
+  "tech_training": "Formation technique",
+  "func_training": "Formation fonctionnelle",
+  "proj_manag": "Gestion de projets",
+  "bank_certif": "Certifications bancaires",
+  "net_architecture": "Architecture r\u00E9seau",
+  "chateau_description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur",
+  "stokes_description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur",
+  "ex_description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur",
+
+  /* Proposal form */
+
+  "f_name": "Pr\u00E9nom",
+  "l_name": "Nom de famille",
+  "c_name": "Nom de votre compagnie",
+  "e-mail": "Courriel",
+  "proj_desc": "Description de votre projet (Tentez d'\u00EAtre le plus pr\u00E9cis possible SVP)",
+  "submit": "Soumettre",
+
+  /* Footer */
+
+  "copyright": "Tous droits r\u00E9serv\u00E9s"
+}

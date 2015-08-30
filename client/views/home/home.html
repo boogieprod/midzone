@@ -1,0 +1,151 @@
+<template name="home">
+    <div class="ui sticky borderless main menu">
+      <div class="ui text container">
+        <a href="#header" class="header item">
+          <img class="logo" src="/images/midZone_logo.png"/>
+          {{_ 'midzone'}}
+        </a>
+          {{#each feature}}
+            <a href="{{path}}" class="item">
+              <span class="headline">{{text}}</span>
+              <i class="{{color}} {{icon}} boilerplate-feature icon"></i>
+            </a>
+          {{/each}}
+          <div class="right floated item">{{> i18n_dropdown}}</div>
+      </div>
+    </div>
+
+    <div id="services" class="main-content padding-wrapper">
+        <div class="ui fitted horizontal icon divider"><i class="archive icon"></i></div>
+        <div class="ui two column stackable grid">
+            <div class="middle aligned row">
+                <div class="center aligned column">
+                    <div class="center aligned icon-wrapper">
+                        <i class="circular massive red archive icon"></i>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3 class="large ui header">{{_ 'our_services'}} <div class="sub header"> {{_ 'dont_wheel'}} </div></h3>
+                    <p>
+                      {{_ 'services_text'}}
+                    </p>
+                    <div class="ui list">
+                        {{#each services}}
+                        <div class="item">
+                          <i class="archive icon"></i>
+                          {{name}}
+                        </div>
+                        {{/each}}
+                    </div>
+                    <div class="ui info message">
+                        <div class="header">
+                            {{_ 'our_goal'}}
+                        </div>
+                        {{_ 'goal_dialog'}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="clients" class="main-content padding-wrapper">
+        <div class="ui fitted horizontal icon divider"><i class="users icon"></i></div>
+        <div class="ui two column stackable grid">
+            <div class="middle aligned row">
+                <div class="column">
+                    <h3 class="large ui header">{{_ 'our_clients'}} <div class="sub header">{{_ 'client_sub'}}</div></h3>
+                    <p>
+                      {{_ 'clients_dialog'}}
+                    </p>
+                    <div class="ui list">
+                        {{#each clients}}
+                        <div class="item">
+                            <i class="right triangle icon"></i>
+                            <div class="content">
+                                <div class="header">{{name}}</div>
+                                <div class="description">{{description}}</div>
+                            </div>
+                        </div>
+                        {{/each}}
+                    </div>
+                    <p>
+                      {{_ 'clients_hints'}}<a href="#proposal">{{_ 'clients_pro_link'}}</a>
+                    </p>
+                </div>
+                <div class="center aligned column">
+                    <div class="center aligned icon-wrapper">
+                        <i class="circular massive users icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="proposal" class="main-content padding-wrapper">
+        <div class="ui fitted horizontal icon divider"><i class="edit icon"></i></div>
+        <div class="ui two column stackable grid">
+            <div class="middle aligned row">
+                <div class="center aligned column">
+                    <div class="center aligned icon-wrapper">
+                        <i class="circular massive orange edit icon"></i>
+                    </div>
+                </div>
+                <div class="column">
+                    <h3 class="large ui header">{{_ 'proposal'}}<div class="sub header">{{_ 'proposal_sub_header'}}</div></h3>
+                    <form class="ui form segment">
+                      <div class="two fields">
+                        <div class="field">
+                          <label>{{_ 'f_name'}}</label>
+                          <input name="fname" type="text">
+                        </div>
+                        <div class="field">
+                          <label>{{_ 'l_name'}}</label>
+                          <input name="lname" type="text">
+                        </div>
+                      </div>
+                      <div class="field">
+                        <label>{{_ 'c_name'}}</label>
+                        <input name="cname" type="text">
+                      </div>
+                      <div class="field">
+                        <label>{{_ 'e-mail'}}</label>
+                        <input name="email" type="text">
+                      </div>
+                      <div class="field">
+                        <label>{{_ 'proj_desc'}}</label>
+                        <textarea name="projDesc" cols="3"></textarea>
+                      </div>
+                      <div class="ui blue submit button">
+                        {{_ 'submit'}}
+                      </div>
+                      <div class="ui error message">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+    <div id="about" class="main-content padding-wrapper">
+        <div class="ui fitted horizontal icon divider"><i class="find icon"></i></div>
+        <div class="ui two column stackable grid">
+            <div class="middle aligned row">
+                <div class="column">
+                    <h3 class="large ui header">{{_ 'about_us'}} <div class="sub header">{{_ 'about_sub_header'}}</div></h3>
+                    {{#each owner}}
+                    <h5 class="medium ui header">{{name}}</h5>
+                      <div class="ui segment">
+                        <img class="ui small rounded left floated image" src="/images/{{img}}"/>
+                        <p>{{description}}</p>
+                      </div>
+                    {{/each}}
+                </div>
+                <div class="center aligned column">
+                    <div class="center aligned icon-wrapper">
+                        <i class="circular massive find red icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
